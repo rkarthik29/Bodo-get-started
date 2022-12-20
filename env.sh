@@ -1,0 +1,2 @@
+export IPYTHONDIR=./ipython
+
