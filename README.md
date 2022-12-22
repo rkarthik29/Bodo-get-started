@@ -23,6 +23,7 @@ Run the command below to setup the repository
 
 # Run your first bodo application
 Once the setup is run successfully, you should be ready to run your first Bodo Application. 
+
     cd examples
     ../run-bodo-conda.sh 2 divvy.py
     
