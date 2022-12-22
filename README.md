@@ -16,21 +16,20 @@ Before starting to setup bodo, please clone this repository using the command be
 
     git clone https://github.com/rkarthik29/Bodo-get-started.git
 
-Let's start the setup by first installing virtualenv. Run the command below
+Run the command below to setup the repository
 
-    pip install virtualenv
+    ./setup-bodo-conda.sh
 
-Once, virtualenv is installed, create a new virtual environemnt.
 
-    virtualenv venv
-
-Activate the virtual environment. Use the command below to activate the environment. 
-
-    cd <path-where you cloned the repo>
-    source venv/bin/activate
-
-You will now be in the virtual environment for the Bodo getting started project. Execute the below command to get all the required libraries and variables configured on your system
-
-    pip install -r requirements.txt
-
+# Run your first bodo application
 Once the setup is run successfully, you should be ready to run your first Bodo Application. 
+
+    ./bodo-run-conda.sh -n 2 examples/pi.py
+The above command will run the job pi.py on two cores. You can change the value for the -n argument to run on more cores. Community lets you go upto 8.
+
+# Run Bodo interactively
+
+To try and run bodo in an interactive manner, lets launch a jupyter environment by running the command below. This will bring up jupyter in a browser. Go ahead and play with the examples in the notebooks folder.
+
+    ./start-jupyter-conda.sh
+    
