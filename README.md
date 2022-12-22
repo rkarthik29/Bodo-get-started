@@ -18,7 +18,9 @@ Before starting to setup bodo, please clone this repository using the command be
     
     cd Bodo-get-started
 
-Run the command below to setup the repository
+Run the command below to setup the repository. Go up to the root of the repository if you are still in examples.
+
+    cd ..
 
     ./setup-bodo-conda.sh
 
