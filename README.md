@@ -23,9 +23,10 @@ Run the command below to setup the repository
 
 # Run your first bodo application
 Once the setup is run successfully, you should be ready to run your first Bodo Application. 
-
-    ./bodo-run-conda.sh -n 2 examples/pi.py
-The above command will run the job pi.py on two cores. You can change the value for the -n argument to run on more cores. Community lets you go upto 8.
+    cd examples
+    ../run-bodo-conda.sh 2 divvy.py
+    
+The above command will run the job divvy.py on two cores. You can change the value for the number of cores by changing the first argument to the script. Community edition lets you go upto 8.
 
 # Run Bodo interactively
 
