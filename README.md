@@ -15,6 +15,8 @@ Bodo requires python 3.7 or higher. This document assumes pip is installed and a
 Before starting to setup bodo, please clone this repository using the command below
 
     git clone https://github.com/rkarthik29/Bodo-get-started.git
+    
+    cd Bodo-get-started
 
 Run the command below to setup the repository
 
