@@ -20,13 +20,17 @@ Let's start the setup by first installing virtualenv. Run the command below
 
     pip install virtualenv
 
-Once, virtualenv is installed, activate the virtual environment that we have already available for you in this repository. Use the command below to activate the environment. 
+Once, virtualenv is installed, create a new virtual environemnt.
+
+    virtualenv venv
+
+Activate the virtual environment. Use the command below to activate the environment. 
 
     cd <path-where you cloned the repo>
     source venv/bin/activate
 
-You will now be in the virtual environment for the Bodo getting started project. Execute the setup-bodo.sh script to get all the required libraries and variables configured on your system
+You will now be in the virtual environment for the Bodo getting started project. Execute the below command to get all the required libraries and variables configured on your system
 
-./scripts/setup-bodo.sh
+    pip install -r requirements.txt
 
 Once the setup is run successfully, you should be ready to run your first Bodo Application. 
