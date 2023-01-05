@@ -17,3 +17,5 @@ source ./miniconda3/bin/activate Bodo
 mamba install bodo bodosql jupyterlab snowflake-sqlalchemy -c bodo.ai -c conda-forge -y
 pip install bodo-platform-ipyparallel-kernel
 python -m bodo_platform_ipyparallel_kernel.install --sys-prefix
+mkdir -p ~/.ipython/profile_default
+cp ipcluster_config.py ~/.ipython/profile_default
